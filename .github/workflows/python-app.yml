@@ -39,4 +39,4 @@ jobs:
 #        pytest
     - name: Create .exe with Pyinstaller
       run: |
-        pyinstaller --onefile --windowed .\main.py --icon=fire.ico
+        pyinstaller --onefile --windowed main.py --icon=fire.ico
